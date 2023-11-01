@@ -1,0 +1,13 @@
+{
+  "name": "challenge-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildstyles": "sass -w ./styles/index.scss ./styles/index.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
