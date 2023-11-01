@@ -29,6 +29,14 @@ body{
                     transition: 2s;
                 }
             }
+            .svg{
+                display: flex;
+                justify-content: space-between;
+                gap: 20px;
+                width: 100px;
+                height: 20px;
+                margin-left: 100px;
+            }
         }
     }
     section{
@@ -43,15 +51,19 @@ body{
             width: 35%;
             padding-top: 15px;
             line-height: 20px;
+            font-size: 15px;
+            letter-spacing: 1px;
          }
         button{
             margin-top: 15px;
             width: 15%;
+            border: none;
+            border-radius: 10px;
             padding: 10px;
             font-weight: bold;
         }
         button:hover{
-            background-color: brown;
+            background-color: green;
             color: white;
         }
     }
