@@ -21,5 +21,16 @@ body main nav {
   font-size: 20px;
   padding: 20px;
 }
+body main nav li {
+  list-style: none;
+}
+body main nav li a {
+  text-decoration: none;
+  color: white;
+}
+body main nav li a:hover {
+  color: brown;
+  transition: 2s;
+}
 
 /*# sourceMappingURL=index.css.map */
